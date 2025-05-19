@@ -1,0 +1,40 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e0f7fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, footer {
+    background-color: #00796b;
+    color: white;
+    padding: 1em;
+}
+
+.search {
+    margin-top: 2em;
+}
+
+input[type="text"] {
+    padding: 0.5em;
+    width: 200px;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #004d40;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00332c;
+}
+
+.result {
+    margin-top: 2em;
+    font-size: 1.2em;
+}

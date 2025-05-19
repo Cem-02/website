@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Информация за времето</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Проверка на времето</h1>
+    </header>
+
+    <main>
+        <section class="search">
+            <input type="text" id="cityInput" placeholder="Въведи град...">
+            <button onclick="getWeather()">Провери</button>
+        </section>
+
+        <section id="weatherResult" class="result"></section>
+    </main>
+
+    <footer>
+        <p>© 2025 Времето чрез OpenWeatherMap API</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
